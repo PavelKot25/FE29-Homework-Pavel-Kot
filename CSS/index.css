@@ -1,8 +1,14 @@
 @import url(../CSS/cdn.css);
-@import url(../CSS/firstscreen.css);
-@import url(../CSS/card.css);
-@import url(../CSS/footer.css);
 @import url(../CSS/header.css);
+@import url(../CSS/firstscreen.css);
+@import url(../CSS/media.css);
+@import url(../CSS/tabs.css);
+@import url(../CSS/card.css);
+@import url(../CSS/pricing.css);
+@import url(../CSS/customers.css);
+@import url(../CSS/stylish.css);
+@import url(../CSS/contart.css);
+@import url(../CSS/footer.css);
 
 *{
     margin: 0;
@@ -21,3 +27,47 @@ html{
     padding: 0 15px;
     margin: auto;
 }
+
+.wrap {
+    
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.subtitle{
+    margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.heading{
+    text-align: center;
+    color: #212121;
+    font-size: 36px;
+font-weight: 400;  
+position: relative;   
+}
+
+
+.heading::after{
+
+    content: "";
+    
+    height: 2px;
+    width: 64px;
+    background: #E72424;
+    display: inline-block;
+    position: absolute;
+
+    top: 42px;
+    left: 47%;
+   
+
+    margin-top: 35px;
+
+}
+
+
+
+

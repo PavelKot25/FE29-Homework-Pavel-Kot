@@ -1,0 +1,67 @@
+
+.pricing-section {
+    padding: 80px 0 59px;
+    background-color: #F5F5F5;
+    flex-wrap: wrap;
+}
+
+
+.desc-pricing {
+    margin: 70px auto 62px;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.price {
+    text-align: center; 
+    margin: 0 15px;                                     
+}
+.name-level {
+    font-size: 20;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #333333;
+    width: 340px;
+    background-color: #333333;
+    line-height: 50px  ;
+    margin-bottom: 2px;
+}
+.price-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #333333;
+    width: 340px;
+    background-color: #333333;
+    line-height: 100px  ;
+    margin-bottom: 2px;
+}
+.list {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #333333;
+    width: 340px;
+    background-color: #333333;
+    line-height: 50px;
+    margin-bottom: 4px;
+}
+.item-list {
+    color: rgba(134, 135, 139, 1);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #FFF;
+    width: 340px;
+    background-color: #FFF;
+    line-height: 40px;
+    margin-bottom: 4px;
+}
+
+.item-list:last-child{
+    margin: 0;
+}
